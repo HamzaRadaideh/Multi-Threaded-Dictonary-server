@@ -1,82 +1,84 @@
-[
-  {
-    "champion": "Garen",
-    "role": ["Top Lane", "Tank", "Bruiser"]
-  },
-  {
-    "champion": "Darius",
-    "role": ["Top Lane", "Bruiser", "Fighter"]
-  },
-  {
-    "champion": "Ahri",
-    "role": ["Mid Lane", "Mage", "Assassin"]
-  },
-  {
-    "champion": "Yasuo",
-    "role": ["Mid Lane", "Assassin", "Fighter"]
-  },
-  {
-    "champion": "Ashe",
-    "role": ["Bottom Lane", "ADC - Attack Damage Carry"]
-  },
-  {
-    "champion": "Jinx",
-    "role": ["Bottom Lane", "ADC - Attack Damage Carry"]
-  },
-  {
-    "champion": "Leona",
-    "role": ["Support", "Tank", "Engage"]
-  },
-  {
-    "champion": "Thresh",
-    "role": ["Support", "Tank", "Utility"]
-  },
-  {
-    "champion": "Lee Sin",
-    "role": ["Jungle", "Fighter", "Assassin"]
-  },
-  {
-    "champion": "Sejuani",
-    "role": ["Jungle", "Tank", "Crowd Control"]
-  },
-  {
-    "champion": "Syndra",
-    "role": ["Mid Lane", "Mage", "Burst"]
-  },
-  {
-    "champion": "Zed",
-    "role": ["Mid Lane", "Assassin"]
-  },
-  {
-    "champion": "Sona",
-    "role": ["Support", "Utility", "Healer"]
-  },
-  {
-    "champion": "Vayne",
-    "role": ["Bottom Lane", "ADC - Attack Damage Carry"]
-  },
-  {
-    "champion": "Maokai",
-    "role": ["Top Lane", "Tank", "Engage"]
-  },
-  {
-    "champion": "Nunu & Willump",
-    "role": ["Jungle", "Tank", "Supportive"]
-  },
-  {
-    "champion": "Alistar",
-    "role": ["Support", "Tank", "Engage"]
-  },
-  {
-    "champion": "Katarina",
-    "role": ["Mid Lane", "Assassin"]
-  },
-  {
-    "champion": "Jax",
-    "role": ["Top Lane", "Jungle", "Fighter", "Splitpusher"]
-  },
-  {
-    "champion": "Ezreal",
-    "role": ["Bottom Lane", "Mid Lane", "ADC - Attack Damage Carry", "Mage"]
-  }
-]
+{
+  "data": [
+    {
+      "champion": "Garen",
+      "role": "Top Lane"
+    },
+    {
+      "champion": "Darius",
+      "role": "Top Lane"
+    },
+    {
+      "champion": "Ahri",
+      "role": "Mid Lane"
+    },
+    {
+      "champion": "Yasuo",
+      "role": "Mid Lane"
+    },
+    {
+      "champion": "Ashe",
+      "role": "Bottom Lane"
+    },
+    {
+      "champion": "Jinx",
+      "role": "Bottom Lane"
+    },
+    {
+      "champion": "Leona",
+      "role": "Support"
+    },
+    {
+      "champion": "Thresh",
+      "role": "Support"
+    },
+    {
+      "champion": "Lee Sin",
+      "role": "Jungle"
+    },
+    {
+      "champion": "Sejuani",
+      "role": "Jungle"
+    },
+    {
+      "champion": "Syndra",
+      "role": "Mid Lane"
+    },
+    {
+      "champion": "Zed",
+      "role": "Mid Lane"
+    },
+    {
+      "champion": "Sona",
+      "role": "Support"
+    },
+    {
+      "champion": "Vayne",
+      "role": "Bottom Lane"
+    },
+    {
+      "champion": "Maokai",
+      "role": "Top Lane"
+    },
+    {
+      "champion": "Nunu & Willump",
+      "role": "Jungle"
+    },
+    {
+      "champion": "Alistar",
+      "role": "Support"
+    },
+    {
+      "champion": "Katarina",
+      "role": "Mid Lane"
+    },
+    {
+      "champion": "Jax",
+      "role": "Top Lane"
+    },
+    {
+      "champion": "Ezreal",
+      "role": "Bottom Lane"
+    }
+  ]
+}
