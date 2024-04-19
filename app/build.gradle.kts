@@ -14,9 +14,7 @@ dependencies {
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
-
-    implementation("com.googlecode.json-simple:json-simple:1.1.1")
-
+    implementation("org.json:json:20240303")
 
     // This dependency is used by the application.
     implementation(libs.guava)
@@ -37,4 +35,10 @@ application {
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+}
+
+tasks.withType<Jar> {
+    manifest {
+        attributes["Main-Class"] = "org.example.App"
+    }
 }
