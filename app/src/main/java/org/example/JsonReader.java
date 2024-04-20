@@ -13,7 +13,7 @@ public class JsonReader {
     public static Map<String, String> loadDictionaryFromJson() {
         Map<String, String> dictionary = new HashMap<>();
 
-        InputStream inputStream = App.class.getResourceAsStream("/league.json");
+        InputStream inputStream = App.class.getResourceAsStream("/wordDictonary.json");
 
         if (inputStream == null) {
             System.err.println("File not found!");
@@ -32,8 +32,8 @@ public class JsonReader {
 
         data.forEach(item -> {
             JSONObject wordObj = (JSONObject) item;
-            String word = wordObj.getString("champion");
-            String meaning = wordObj.getString("role");
+            String word = wordObj.getString("word");
+            String meaning = wordObj.getString("meaning");
             dictionary.put(word, meaning);
         });
 
